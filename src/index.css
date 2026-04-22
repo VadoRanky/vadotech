@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: url(assets/web\ bg.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  padding: 100px;
+  align-items: center;
+}
+header h1 {
+  font-size: 45px;
+}
+header p {
+  font-size: 25px;
+  margin-top: 10px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header button {
+  padding: 10px 25px;
+  background-color: rgba(32, 32, 178, 0.508);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+header button:hover {
+  background-color: white;
+  color: black;
+}
+@keyframes color {
+  0% {
+    background: black;
+  }
+
+  25% {
+    background-color: white;
+  }
+  50% {
+  }
+}
+.btn-1 {
+  margin-left: 5px;
+  background-color: white;
+  color: rgba(42, 29, 140, 0.821);
+}
+header img {
+  border-radius: 10px;
+  /* margin-left: 10px; */
+}
+.grid.section {
+  padding: 10px;
+  margin-top: 20px;
+}
+nav {
+  z-index: 2;
+}
+.service-section {
+  background: url(assets/web\ bg.avif);
+  /* height: 100vh; */
+  background-size: cover;
+  color: white;
+  padding-top: 80px;
+}
+.service-flex {
+  border: 2px solid rgba(212, 192, 192, 0.816);
+  padding: 40px 40px;
+  margin: 20px;
+  transition: 0.5s ease-in-out;
+}
+.service-flex h2 {
+  font-size: 40px;
+}
+.service-flex:hover {
+  transform: scale(1.02);
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  /* background-color: rgba(27, 150, 183, 0.44); */
+  padding-top: 80px;
+}
+section img {
+  width: 500px;
+  border-radius: 5px;
+}
+section button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(29, 29, 225);
+  border-radius: 10px;
+  color: white;
+}
+section h1 {
+  font-size: 50px;
+}
+section p {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.image-container {
+  position: relative;
+}
+.second-image {
+  position: absolute;
+  width: 200px;
+  top: -10px;
+  left: -20px;
+}
+.map {
+  width: 80%;
+  height: 450px;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+[Type="text"],
+[Type="email"] {
+  width: 500px;
+  padding: 20px 40px;
+  margin-left: 50px;
+  background-color: rgb(233, 238, 238);
+  /* margin: 5px; */
+  border: none;
+  margin-bottom: 10px;
+  border: 1px solid rgba(22, 22, 200, 0.804);
+  color: black;
+  border-radius: 5px;
+
+}
+[Type="submit"] {
+  padding: 10px 20px;
+  position: absolute;
+  /* bottom: 20px; */
+  top: 165px;
+  left: 405px;
+  background-color: rgba(31, 31, 218, 0.849);
+  color: white;
+  border: none;
+}
+.message {
+  position: relative;
+}
+.footer-section{
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
+}
+.footer-section ul{
+  list-style: none;
+
+}
+.footer-section h3{
+  color: gold;
+}
