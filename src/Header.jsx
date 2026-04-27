@@ -20,7 +20,7 @@ const Header = () => {
         </div>
         <div className="image-container">
           <img src={snap} alt="" className="first-image" />
-          <img src={snap} alt="" className="second-image" />
+          {/* <img src={snap} alt="" className="second-image" /> */}
         </div>
       </header>
     </div>
