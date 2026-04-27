@@ -6,11 +6,14 @@ import Card from "./Cards";
 import Service from "./Service";
 import About from "./About";
 import Contact from "./Contact";
+import Slides from "./Component/Slides";
 const App = () => {
   return (
     <div>
       {/* <Navbar /> */}
+           <Slides />
       <Header />
+ 
       {/* <Card /> */}
       {/* <Product /> */}
       {/* <Service /> */}

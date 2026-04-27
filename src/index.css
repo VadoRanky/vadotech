@@ -8,6 +8,9 @@
   font-size: 28px;
   cursor: pointer;
 }
+.navbar img{
+  width: 150px;
+}
 .nav-list {
   margin: 0;
   display: flex;
@@ -331,4 +334,10 @@ section p {
     gap: 10px;
     font-size: 14px;
   }
+}
+
+
+
+.carousel-item img{
+   width: 100%;
 }

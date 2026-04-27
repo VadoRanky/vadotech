@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router";
+import vadotech from "./assets/vadotech.png"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <nav className="navbar d-flex justify-content-between align-items-center bg-light text-primary p-2 position-fixed w-100">
-      <h2>Vado Webpage</h2>
+      <img src={vadotech} alt="" />
 
       <div className="menu-icon" onClick={() => setOpen(!open)}>
         ☰
